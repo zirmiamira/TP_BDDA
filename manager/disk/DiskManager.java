@@ -10,7 +10,7 @@ public class DiskManager {
     private String dmDir;
     private int pageSize;
     private int PageCount; 
-    private List Pageslibres;
+    private ArrayList Pageslibres;
     private static final String NOMFICHIER = "fichier.bin";
 	 public DiskManager(String dmDir, int pageSize) {
         this.dmDir = dmDir;
